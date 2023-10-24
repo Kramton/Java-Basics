@@ -8,6 +8,8 @@ public class printingInJava
 		System.out.print("Hello World!");
 		
 		// Print in another line
-		System.out.println("Hello World! In the next line.");
+		System.out.println();
+		
+		System.out.print("Hello World! In the next line.");
 	}
 }
