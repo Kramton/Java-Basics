@@ -1,6 +1,6 @@
 package JavaBasics01;
 
-public class printingInJava 
+public class PrintingInJava 
 {
 	public static void main(String[] args)
 	{

@@ -1,6 +1,6 @@
 package JavaBasics01;
 
-public class commenting 
+public class Commenting 
 {
 
 	public static void main(String[] args) 
