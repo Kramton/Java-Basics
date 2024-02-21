@@ -14,6 +14,28 @@ public class CalculatingFromInput
 		System.out.println("Enter second number: ");
 		int number2 = scan.nextInt();
 		
-		System.out.println("Result: " + (number1 + number2));
+		System.out.println("Please choose (+), (-), (*), (/): ");
+		char symbol = scan.next().charAt(0);
+		
+		if(symbol == '+') 
+		{
+			System.out.println("Result: " + (number1 + number2));
+		}
+		else if(symbol == '-')
+		{
+			System.out.println("Result: " + (number1 - number2));
+		}
+		else if(symbol == '*')
+		{
+			System.out.println("Result: " + (number1 * number2));
+		}
+		else if(symbol == '/')
+		{
+			System.out.println("Result: " + (number1 / number2));
+		}
+		else
+		{
+			System.out.println("Invalid input. Please try again...");
+		}
 	}
 }
