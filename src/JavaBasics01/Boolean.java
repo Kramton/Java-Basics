@@ -23,5 +23,19 @@ public class Boolean
 		{
 			System.out.println("In the if statement.");
 		}
+		
+		int num1 = 1;
+		int num2 = 3;
+		
+		boolean numTrue = ((num1 + num2) == 4);
+		
+		if(numTrue)
+		{
+			System.out.println("Wow!");
+		}
+		else
+		{
+			System.out.println("No...");
+		}
 	}
 }
