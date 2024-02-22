@@ -35,6 +35,5 @@ public class IfElse
 		{
 			System.out.println("Grade not in range...");
 		}
-		
 	}
 }
