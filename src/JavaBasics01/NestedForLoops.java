@@ -9,11 +9,11 @@ public class NestedForLoops
 			System.out.println("Hello World!");
 		}
 		
-//		String[] colors = {"Red", "Blue", "Green"};
+		String[] colors = {"Red", "Blue", "Green"};
 		
-//		for(int i = 0; i < colors.length; i++)
-//		{
-//			System.out.println("Colors: " + colors[i]);
-//		}
+		for(int i = 0; i < colors.length; i++)
+		{
+			System.out.println("Colors: " + colors[i]);
+		}
 	}
 }
