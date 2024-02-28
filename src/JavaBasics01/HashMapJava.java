@@ -28,5 +28,7 @@ public class HashMapJava
 		System.out.println(login.containsKey("JohnD7th"));
 		System.out.println(login.replace("LetMeSoloHer", "BetterPassword"));
 		System.out.println(login);
+		
+		System.out.println(login.get("JohnD7th"));
 	}
 }
