@@ -1,6 +1,6 @@
 package JavaBasics01;
 
-public class StringToInteger 
+public class StringInteger 
 {
 	public static void main(String[] args) 
 	{
