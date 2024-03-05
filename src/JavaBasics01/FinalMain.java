@@ -28,8 +28,8 @@ public class FinalMain
 class OtherClass extends FinalMain
 {
 	// cannot ovveride because its final.
-	public void sayHi()
-	{
-		System.out.println("Hello!");
-	}
+//	public void sayHi()
+//	{
+//		System.out.println("Hello!");
+//	}
 }
