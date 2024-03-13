@@ -11,7 +11,7 @@ public class CSVReader
 	{
 		// CSV stands for Comma separated values.
 		
-		String path = "/Users/mark/Downloads/cp-national-datafile-csv_2021.csv";
+		String path = "/Users/mark/Documents/GitHub/Learning-Java/cp-national-datafile-csv_2021.csv";
 		String line = "";
 		
 		try 
